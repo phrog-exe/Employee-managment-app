@@ -11,6 +11,7 @@ namespace employee_managment_app
     {
         string Name { get; set; }
         int Age { get; set; }
+        Role Role { get; }
         void DisplayInfo();
     }
 }

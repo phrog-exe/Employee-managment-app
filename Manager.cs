@@ -9,10 +9,8 @@ namespace employee_managment_app
 {
      class Manager : Employee
     {
-        public Manager(string name, int age) : base(name, age)
-        {
-            role = Role.Manager;
-        }
+        public Manager(string name, int age) : base(name, age, Role.Manager)
+        {      }
 
         public override void DisplayInfo()
         {
